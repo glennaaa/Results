@@ -1,0 +1,50 @@
+################################################################# MLP Model 1 #################################################################
+No. of Hidden Layers: 2
+No. of Neurons in Layer 1:24
+No. of Neurons in Layer 2:18
+Training Accuracy : 0.30017440847008814
+Testing Accuracy : 0.3553225556635258
+Compute model accuracy (within 20% of actual)
+Train Mean Absolute Percentage Error: 14.46%
+Train Percentage Accuracy: 85.54%
+Test Mean Absolute Percentage Error: 16.63%
+Test Percentage Accuracy: 83.37%
+
+Actual values:
+year
+2021    216.6794
+2020    162.5610
+2019    128.5184
+Name: year_close, dtype: float64
+
+Predicted values:
+[244.9731688  124.44996359 111.32393427]
+
+Mean Squared Error: 849.5460334941972
+R-squared: 0.3553225556635258
+Root Mean Square Error: 29.146972973092716
+Mean Absolute Percentage Error: 16.63%
+
+################################################################# MLP Model 2 #################################################################
+Compute model accuracy (within 20% of actual)
+Train Mean Absolute Percentage Error: 91.88%
+Train Percentage Accuracy: 8.12%
+Test Mean Absolute Percentage Error: 88.87%
+Test Percentage Accuracy: 11.13%
+
+Actual values:
+year
+2021    216.6794
+2020    162.5610
+2019    128.5184
+Name: year_close, dtype: float64
+
+Predicted values:
+[[32.214825 ]
+ [13.5444355]
+ [13.088302 ]]
+
+Mean Squared Error: 23185.74121580922
+R-squared: -16.594484351337794
+Root Mean Square Error: 152.2686481709522
+Mean Absolute Percentage Error: 88.87%
